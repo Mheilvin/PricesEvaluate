@@ -14,5 +14,5 @@
         System.out.println("Item: " + Item);
         System.out.println("Quantity: " + quantity);
         System.out.println("Total: " + total);
+         }
     }
-}
