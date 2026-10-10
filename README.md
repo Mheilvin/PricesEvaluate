@@ -1,9 +1,12 @@
     
-import java.util.Scanner;
 
-public class PriceAndAmount {
+                                             
+                                         import java.util.Scanner;
+                                                                  public class PriceAndAmount {
+                                                                            
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+    
+    Scanner input = new Scanner(System.in);
         
         System.out.print("Item: ");
         String Item = input.nextLine();
