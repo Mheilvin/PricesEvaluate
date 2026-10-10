@@ -1,18 +1,31 @@
-  
-     import java.util.Scanner;
-     public class Pricesandreceipt {
-     public static void main(String[] args) {
-     Scanner input = new Scanner(System.in);   
-        System.out.print("Item: ");
-        String Item = input.nextLine();        
-        System.out.print("price: ");
-        double price = input.nextDouble();     
-        System.out.print("Quantity: ");
-        int quantity = input.nextInt();       
-        double total = quantity * price;
-        System.out.println("===RECEIPT===");
-        System.out.println("Item: " + Item);
-        System.out.println("Quantity: " + quantity);
-        System.out.println("Total: " + total);
-         }
+
+import java.util.Scanner;
+
+public class MovieTicket {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        // Ask for movie information
+        System.out.print("Movie Title: ");
+        String movieTitle = input.nextLine();
+
+        System.out.print("Ticket Price: ");
+        double ticketPrice = input.nextDouble();
+
+        System.out.print("Number of Tickets: ");
+        int numberOfTickets = input.nextInt();
+
+        // Calculate the total cost
+        double totalCost = ticketPrice * numberOfTickets;
+
+        // Display the receipt
+        System.out.println("=== MOVIE TICKET RECEIPT ===");
+        System.out.println("Movie Title: " + movieTitle);
+        System.out.println("Ticket Price: " + ticketPrice);
+        System.out.println("Number of Tickets: " + numberOfTickets);
+        System.out.println("Total Cost: " + totalCost);
+
+        input.close();
     }
+}
