@@ -2,7 +2,8 @@
 
                                              
                                          import java.util.Scanner;
-                                                                  public class PriceAndAmount {
+                                                                  
+                                            public class PriceAndAmount {
                                                                             
     public static void main(String[] args) {
     
